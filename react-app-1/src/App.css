@@ -1,0 +1,39 @@
+.container {
+    max-width: 400px;
+    min-height: 450px;
+    background-color: #efefef;
+    box-shadow: 0 0 10px gray;
+    margin: 0 auto;
+    margin-top: 50px;
+    padding: 15px 50px;
+}
+
+.header {
+    text-align: center;
+}
+
+.expense {
+    display: flex;
+    justify-content: space-around;
+    background-color: white;
+    box-shadow: 0 0 10px gray;
+
+}
+.transaction-form input{
+    width: 100%;
+    margin: 10px 0;
+    padding: 5px 5px;
+}
+.history{
+    margin: 0;
+    padding: 0;
+}
+.history > li{
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 0 0 10px gray;
+    background-color: white;
+    padding: 10px 15px;
+    margin: 5px 0;
+    border-radius: 5px;
+}
