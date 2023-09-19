@@ -19,16 +19,19 @@
     box-shadow: 0 0 10px gray;
 
 }
-.transaction-form input{
+
+.transaction-form input {
     width: 100%;
     margin: 10px 0;
     padding: 5px 5px;
 }
-.history{
+
+.history {
     margin: 0;
     padding: 0;
 }
-.history > li{
+
+.history>li {
     display: flex;
     justify-content: space-between;
     box-shadow: 0 0 10px gray;
@@ -36,4 +39,8 @@
     padding: 10px 15px;
     margin: 5px 0;
     border-radius: 5px;
+}
+
+.history>li:hover {
+    background-color: orange;
 }

@@ -1,13 +1,14 @@
 import React from 'react';
 import './App.css';
-import Child from './Child';
-import {TransactionProvider} from './transContext';
+import Navbar from './Components/Navbar';
+import InfoPanel from './Components/InfoPanel';
 
 function App() {
   return (
-    <TransactionProvider>
-      <Child />
-    </TransactionProvider>
+    <div>
+      <Navbar />
+      <InfoPanel />
+    </div>
   );
 }
 
